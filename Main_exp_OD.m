@@ -3,16 +3,16 @@ clc
 close all
 N=10;
 for ii=1:1:N
-    load(['D:\Work\EfficientEFS\Data\WI\data_' num2str(ii) '.mat'])
+    load(['data_' num2str(ii) '.mat'])
     seq=randperm(length(LTra1));
     Input.x=DTra1(seq,:);Input.y=(LTra1(seq)-1.5)*2;
     tic
-    [Output]=HESOFIS(Input,'L');
+    [Output]=SALFS(Input,'L');
     tt(ii)=toc
     
     Input.x=DTes1;Input.Syst=Output.Syst;
     
-    [Output]=HESOFIS(Input,'T');
+    [Output]=SALFS(Input,'T');
     label_est=Output.Ye;
     label_est(Output.Ye>0)=2;
     label_est(Output.Ye<=0)=1;
