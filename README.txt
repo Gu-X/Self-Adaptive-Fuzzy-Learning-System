@@ -6,3 +6,4 @@ Gu, X., Shen, Q. (2021). A Self-Adaptive Fuzzy Learning System for Streaming Dat
 ===============================================================================================================================
 Please cite the paper above if this code helps. 
 Programmed by Xiaowei Gu. For any queries about the code, please contact Dr. Xiaowei Gu: xig4@aber.ac.uk
+Editable source code will be available soon
