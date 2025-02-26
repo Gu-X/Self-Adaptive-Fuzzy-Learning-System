@@ -1,5 +1,5 @@
 # Self-Adaptive-Fuzzy-Learning-System
-The MATLAB code for the research paper titled "A Self-Adaptive Fuzzy Learning System for Streaming Data Prediction".
+The MATLAB/Python code for the research paper titled "A Self-Adaptive Fuzzy Learning System for Streaming Data Prediction".
 This work is described in:
 ===============================================================================================================================
 Gu, X., Shen, Q. (2021). A Self-Adaptive Fuzzy Learning System for Streaming Data Prediction. Information Sciences, Accepted.
